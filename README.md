@@ -11,7 +11,8 @@ I'm currently focused on bringing **Generative AI and Agentic AI into Quality En
 ## 🚀 What I'm Building
 
 🤖 **AI Test Case Generator**  
-Requirements → AI-generated functional, negative, boundary, regression & API test cases
+Requirements and BRDs → structured analysis, functional/negative/boundary test cases, API test design and traceability
+[Repository](https://github.com/ShwetaGupta-AIQA/AI-TestCase-Generator) · [Live demo](https://testgen-ai-demo.streamlit.app/) · [API docs](https://ai-test-case-generator-chi.vercel.app/docs)
 
 🧠 **Agentic QA Engineer**  
 AI agents for test design, execution, failure analysis and defect reporting
@@ -59,23 +60,22 @@ Application Logs → AI Analysis → Root Cause → Debugging Suggestions
 
 ## 🚀 Featured Projects
 
-### 🤖 AI Test Case Generator
+### 🤖 [AI Test Case Generator](https://github.com/ShwetaGupta-AIQA/AI-TestCase-Generator)
 
-An AI-powered Quality Engineering platform that converts requirements and user stories into structured test cases.
+An AI-powered Quality Engineering platform that turns requirements and BRDs into structured analysis, test scenarios, detailed test cases and a traceability workbook. It also supports API test design from manual endpoint details, OpenAPI specifications and HTML API documentation.
 
 **Capabilities**
 
-- Functional test generation
-- Negative testing
-- Boundary testing
-- Regression test identification
-- API test generation
-- Test data generation
-- Requirement-to-test traceability
+- TXT, DOCX and text-based PDF requirement ingestion
+- Functional, negative and boundary scenario and test-case generation
+- Deterministic QA validation, boundary analysis and per-run IDs
+- Excel export with requirements, scenarios, test cases and traceability
+- API test design and Excel, Postman, Pytest and SoapUI exports
+- Streamlit interface and FastAPI endpoints
 
 `Python` `FastAPI` `LLM` `OpenRouter` `Pydantic`
 
-🚧 Currently under development
+**Live:** [Demo](https://testgen-ai-demo.streamlit.app/) · [API documentation](https://ai-test-case-generator-chi.vercel.app/docs)
 
 ---
 
