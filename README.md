@@ -15,7 +15,8 @@ Requirements and BRDs → structured analysis, functional/negative/boundary test
 [Repository](https://github.com/ShwetaGupta-AIQA/AI-TestCase-Generator) · [Live demo](https://testgen-ai-demo.streamlit.app/) · [API docs](https://ai-test-case-generator-chi.vercel.app/docs)
 
 🧠 **Agentic QA Engineer**  
-AI agents for test design, execution, failure analysis and defect reporting
+Six specialized QA agents for requirements, test design, synthetic data, approved execution, defect analysis and release readiness.
+[Repository and setup guide](https://github.com/ShwetaGupta-AIQA/Agentic-QA)
 
 🔗 **AI API Testing Framework**  
 OpenAPI / Swagger → Test Generation → Execution → AI Failure Analysis
@@ -79,11 +80,27 @@ An AI-powered Quality Engineering platform that turns requirements and BRDs into
 
 ---
 
-### 🧠 Agentic QA Engineer
+### [Agentic QA Platform](https://github.com/ShwetaGupta-AIQA/Agentic-QA)
 
-An autonomous QA system where specialized AI agents collaborate to understand requirements, design tests, execute them and analyze failures.
+A working controlled QA demonstration with six specialized agents supporting requirements analysis, reviewed test design, synthetic data, approved automation, defect analysis and evidence-backed release recommendations.
 
-🚧 Planned
+**Capabilities**
+
+- React command center with FastAPI and LangGraph workflows
+- Human approval checkpoints and validated structured outputs
+- Fixed registered API and Playwright browser suites against a synthetic commerce application
+- Retrieval with source references and scoped read-only MCP tools
+- Deterministic GO, CONDITIONAL_GO and NO_GO gates with separate human authorization
+- Docker deployment with PostgreSQL checkpoints, persistent Chroma/artifacts and a private test worker
+- Metadata telemetry and CI/staging controls
+
+`React` `TypeScript` `Python` `FastAPI` `LangGraph` `Playwright` `PostgreSQL` `Chroma` `Docker`
+
+**Verified:** 182 backend tests, 36 UI tests and 15 registered commerce tests passed in the controlled demonstration. These checks do not establish production AI accuracy.
+
+**Status:** Local controlled demo implemented. Public production promotion remains blocked by documented dependency security advisories; external hosting is not deployed.
+
+[Beginner setup and usage](https://github.com/ShwetaGupta-AIQA/Agentic-QA#readme) | [Architecture](https://github.com/ShwetaGupta-AIQA/Agentic-QA/blob/main/docs/architecture.md) | [Security limitations](https://github.com/ShwetaGupta-AIQA/Agentic-QA/blob/main/docs/security.md)
 
 ---
 
